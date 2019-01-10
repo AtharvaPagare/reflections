@@ -9,10 +9,17 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When the developer wants to try a new feature but is unsure of the consequences before adding to the master branch, usage of another branch comes in handy.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+They give complete idea of the workflow of a project. Also the issue of missing branch is also resolved.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Advantage is that when there is no conflict, Git automatically merges the two branches.
+Disadvantage is that merging can cause a lot of headaches if changes are made in the same code.
